@@ -1,0 +1,45 @@
+CHANGELOG
+
+v0.3.4
+
+-	Changed code completion hiding behavior to hide when deleting any non-valid identifier 
+	character instead of only periods and whitespace characters.
+
+
+v0.3.3
+
+-	Fixed issue where toggle line comment action would remove non-comment characters.
+
+
+v0.3.2
+
+-	Fixed wrong path for gofmt.
+
+
+v0.3.1
+
+-	Fixed broken error gofmt error dialog launch.
+
+
+v0.3.0
+
+-	Fixed major design flaws in code completion. Code completion works now much better.
+	Shortcut for code completion is now ctrl-space.
+-	Introduced few issues due to issues in gtksourceview (see "Known issues" in README.markdown).
+
+v0.2.5-0.2.6:
+
+-	Fixed partially broken $GOBIN path chooser button.
+-	Fixed an issue where code completion would not work when gocode was not set in $PATH even tough 
+	its path was set correctly in plugin settings.
+
+
+v0.2.4:
+
+-	Fixed issue #1: When gofmt formatting is called, it results in two undoable user interactions 
+	instead of one.
+
+
+v0.2.3:
+
+-	Minor improvements. No functional changes.

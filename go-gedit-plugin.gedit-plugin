@@ -1,0 +1,10 @@
+[Gedit Plugin]
+Loader=python
+Module=go-gedit-plugin
+IAge=2
+Name=Go plugin
+Description=Go programming language plugin.
+Authors=Juhani Åhman (fzzbt) <fuzzybyte@gmail.com>
+Copyright=Copyright © 2010-2011 Juhani Åhman (fzzbt)
+Website=https://bitbucket.org/fuzzybyte/go-gedit-plugin/
+Version=0.3.0
